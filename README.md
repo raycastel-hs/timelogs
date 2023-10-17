@@ -1,35 +1,36 @@
 ## October 17, 2023 - Tuesday
 - **Time Logs:**
-	- CTC Redesign: Master Data Input fields - Disabled states `1.5h`
-	- CTC Redesign: Master Data Input fields - Loading States `.5h`
-	- CTC Redesign: Master Data Input fields - Disabled states `1.5h`
-	- CTC Redesign: Master Data Input - Tests: bug investigation, input & tests `1.5h`
+	- CTC Redesign: Master Data Input fields - Disabled state `1h`
+	- CTC Redesign: Master Data Input fields - Loading State `.5h`
+	- CTC Redesign: Master Data Input fields - Error Message Widget `.5h`
 	- CTC Redesign: Master Data Input fields - workaround on InputFieldStatus.Disabled issue `1h`
+	- CTC Redesign: Master Data Input - Bug & issues: investigation & tests `2h`
+	- CTC Redesign: `TextFieldUtils` class UI updates  `4h`
 - **Task breakdown:**
-	- CTC Redesign: Text Field - Added ui design for disabled state - .25
-	- CTC Redesign: Master Data Widget - Bugs, issues investigation, tests - 1.5h
-	- CTC Redesign: `TextFieldUtils` - Temporary override on InputFieldStatus.Disabled issue - 1
-	- CTC Redesign: `TextFieldUtils` - updated Input Text color by state - .5
-	- CTC Redesign: `TextFieldUtils` - updated Hint Text color by state - .5
-	- CTC Redesign: `TextFieldUtils` - updated label color by state - .5
-	- CTC Redesign: `TextFieldUtils` - updated Background color by state - .5
-	- CTC Redesign: `TextFieldUtils` - updated Border color by state - .5
-	- CTC Redesign: `TextFieldUtils` - Workaround - Input Field State & Error message not matching - 1h
-- **To Dos:**
-	- Error Widget
-- **Bugs:**
-    - Having initial registration data does not allow Given name & Family name to be edited - intermittent
+	- CTC Redesign: Input Field UI - Added ui design for disabled & loading states
+	- CTC Redesign: Input Text Field - Workaround on issue: unable to edit given name and family name
+	- CTC Redesign: Input fields - Move error text widget to stack
+	- CTC Redesign: Master Data Widget - Issues investigation, tests
+	- CTC Redesign: `TextFieldUtils` - Temporary override on InputFieldStatus.Disabled issue
+	- CTC Redesign: `TextFieldUtils` - updated Input Text color by state
+	- CTC Redesign: `TextFieldUtils` - updated Hint Text color by state
+	- CTC Redesign: `TextFieldUtils` - updated label widget by state
+	- CTC Redesign: `TextFieldUtils` - updated Background color by state
+	- CTC Redesign: `TextFieldUtils` - updated Border color by state
+	- CTC Redesign: `TextFieldUtils` - Fixed issue where input Field State & Error message not matching
 - **Issues:**
-    - Master Data Widget: given name, family name, birth date, nationality does not turn to success state after tapping "save button"
-    - Master Data Widget: Adding a location gives "Value has changed" validation message to mandatory textfields
-    - Master Data Widget: "Value has changed" validation message does not show up when changing primary language
-    - Master data input fields default to `InputFieldState.disabled`
-	- Master Data input fields are disabled - currently overriding InputFieldStatus.Disabled UI
-	- flag margin on phone input exceeds spacing used in Figma
-	- slight movement on text input when focused
+	- Phone Input reloads previous value after tap outside then tapping the input area again if the new value has not been changed after editing.
+    - Master Data: Workaround currently in effect - Having initial registration data does not allow Given name & Family name to be edited.
+    - Master data input fields default to `InputFieldState.disabled` - currently overriding InputFieldStatus.Disabled UI to look like enabled
+	- No focus border for non-text fields
+	- Slight movement on text input when focused
+	- Cant test loading indicator - no loading states for Master Data input fields
+	- Flag margin on phone input exceeds spacing used in Figma
 	- Figma uses 500 font weight, app uses 600 font weight to match
-	- no focus border for non-text fields
-	- cant test loading indicator
+- **Questions:**
+    - Do hints disappear on focus or only when there is input?
+    - Master Data Widget: given name, family name, birth date, nationality does not turn to success state after tapping "save button"
+    - Master Data Widget: "Value has changed" validation message only for Given Name, Family Name, Birth Date, & Nationality
 
 ## October 16, 2023 - Monday
 - **Time Logs:**
@@ -90,7 +91,7 @@
     - label icons
     - label - listen to state
     - log time & date
-    - move _validationResult to textfield utils
+    - move `_validationResult` to textfield utils
 
 
 ## October 11, 2023 - Wednesday
