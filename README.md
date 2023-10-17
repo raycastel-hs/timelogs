@@ -1,6 +1,3 @@
-# Logs - Ray Castel 
-
-
 ## October 16, 2023 - Monday
 - **Time Logs:**
     - New input field designs: bugfix, validation, field states `8h`
