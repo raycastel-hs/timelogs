@@ -1,3 +1,36 @@
+## October 17, 2023 - Tuesday
+- **Time Logs:**
+	- CTC Redesign: Master Data Input fields - Disabled states `1.5h`
+	- CTC Redesign: Master Data Input fields - Loading States `.5h`
+	- CTC Redesign: Master Data Input fields - Disabled states `1.5h`
+	- CTC Redesign: Master Data Input - Tests: bug investigation, input & tests `1.5h`
+	- CTC Redesign: Master Data Input fields - workaround on InputFieldStatus.Disabled issue `1h`
+- **Task breakdown:**
+	- CTC Redesign: Text Field - Added ui design for disabled state - .25
+	- CTC Redesign: Master Data Widget - Bugs, issues investigation, tests - 1.5h
+	- CTC Redesign: `TextFieldUtils` - Temporary override on InputFieldStatus.Disabled issue - 1
+	- CTC Redesign: `TextFieldUtils` - updated Input Text color by state - .5
+	- CTC Redesign: `TextFieldUtils` - updated Hint Text color by state - .5
+	- CTC Redesign: `TextFieldUtils` - updated label color by state - .5
+	- CTC Redesign: `TextFieldUtils` - updated Background color by state - .5
+	- CTC Redesign: `TextFieldUtils` - updated Border color by state - .5
+	- CTC Redesign: `TextFieldUtils` - Workaround - Input Field State & Error message not matching - 1h
+- **To Dos:**
+	- Error Widget
+- **Bugs:**
+    - Having initial registration data does not allow Given name & Family name to be edited - intermittent
+- **Issues:**
+    - Master Data Widget: given name, family name, birth date, nationality does not turn to success state after tapping "save button"
+    - Master Data Widget: Adding a location gives "Value has changed" validation message to mandatory textfields
+    - Master Data Widget: "Value has changed" validation message does not show up when changing primary language
+    - Master data input fields default to `InputFieldState.disabled`
+	- Master Data input fields are disabled - currently overriding InputFieldStatus.Disabled UI
+	- flag margin on phone input exceeds spacing used in Figma
+	- slight movement on text input when focused
+	- Figma uses 500 font weight, app uses 600 font weight to match
+	- no focus border for non-text fields
+	- cant test loading indicator
+
 ## October 16, 2023 - Monday
 - **Time Logs:**
     - New input field designs: bugfix, validation, field states `8h`
@@ -9,7 +42,7 @@
 	- Input field label - 1
 	- Phone, Text, Date, Multi Select - Read-Only state - .5
 	- Bug fix: removing phone number still marks valid input - 1
-- **To dos:**
+- **To Dos:**
 	- Disabled states
 	- Loading States
 - **Issues:**
@@ -34,7 +67,7 @@
 	- Phone Input `1h`
 - **Task breakdown:**
     - n/a
-- **To dos:**
+- **To Dos:**
     - error message, move to stack
     - font is a little thin compared to UI
     - test validations
@@ -52,7 +85,7 @@
     - input borders state
     - wrapped the whole thing with container for border styles
     - using stack for validation messages
-- **To dos:**
+- **To Dos:**
     - input Prefix icons
     - label icons
     - label - listen to state
