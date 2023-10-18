@@ -1,3 +1,24 @@
+## October 18, 2023 - Wednesday
+- **Time Logs:**
+	- CTC Redesign: Create builder to contain new input field design - 2h
+	- CTC Redesign: Resolve bugs and minor issues - 5h
+	- HSS-Okta: Scan through Okta docs and `HssOktaFlutter` - 1h
+- **Task breakdown:**
+	- CTC Consultation - 1h
+	- CTC Redesign: Fix resetting input fields - 2h
+	- CTC Redesign: Fix mismatch validations states - 1h
+	- CTC Redesign: Separate builder for new input field widget - 1
+- **Issues:**
+    - Master data input fields default to `InputFieldState.disabled` - currently overriding InputFieldStatus.Disabled UI to look like enabled
+	- No focus border for non-text fields
+	- Slight movement on text input when focused
+	- Cant test loading indicator - no loading states for Master Data input fields
+	- Flag margin on phone input exceeds spacing used in Figma
+	- Figma uses 500 font weight, app uses 600 font weight to match
+- **Questions:**
+    - Do hints disappear on focus or only when there is input?
+
+
 ## October 17, 2023 - Tuesday
 - **Time Logs:**
 	- CTC Redesign: Master Data Input fields - Disabled state `1h`
@@ -32,6 +53,7 @@
     - Master Data Widget: given name, family name, birth date, nationality does not turn to success state after tapping "save button"
     - Master Data Widget: "Value has changed" validation message only for Given Name, Family Name, Birth Date, & Nationality
 
+
 ## October 16, 2023 - Monday
 - **Time Logs:**
     - New input field designs: bugfix, validation, field states `8h`
@@ -58,6 +80,7 @@
 	- No input fields with loading states yet
 	- No date & time input yet
 
+
 ## October 13, 2023 - Friday
 - **Time Logs:**
     - Edit form field structure - clear button, error message, label `2h`
@@ -77,6 +100,7 @@
     - slight movement on text input when focused
     - loading indicator
     - test on tablet view
+
 
 ## October 12, 2023 - Thursday
 - **Time Logs:**
