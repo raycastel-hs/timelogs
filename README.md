@@ -4,12 +4,12 @@
 	- CTC Redesign: Resolve bugs and minor issues `5h`
 	- HSS-Okta: Scan through Okta docs and `HssOktaFlutter` - `1h`
 - **Task breakdown:**
-	- CTC Consultation - 1h
-	- CTC Redesign: Fix resetting input fields - 4h
-	- CTC Redesign: Fix mismatch validations states - 1h
-	- CTC Redesign: Separate builder for new input field widget - 2
-	- Okta: get the app running locally - .5
-	- Okta: Okta docs, HSS-Okta-Flutter scan repo - .5
+	- CTC Consultation
+	- CTC Redesign: Fix resetting input fields
+	- CTC Redesign: Fix mismatch validations states
+	- CTC Redesign: Separate builder for new input field widget
+	- Okta: get the app running locally
+	- Okta: Okta docs, HSS-Okta-Flutter scan repo
 - **Issues:**
     - Master data input fields default to `InputFieldState.disabled` - currently overriding InputFieldStatus.Disabled UI to look like enabled
 	- No focus border for non-text fields
