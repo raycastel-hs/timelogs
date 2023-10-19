@@ -1,3 +1,34 @@
+## October 19, 2023 - Thursday
+- **Time Logs:**
+	- CTC Redesign: DateTime input `1h`
+	- CTC Redesign: Input Fields: Disabled & Loading States `5h`
+	- CTC Redesign: Input Fields: TextFieldUtils `2.5h`
+	- HSS Okta - Onboarding, Pigeon Docs, Okta Android Docs
+- **Task breakdown:**
+	- CTC Meeting: Settings Screen - feedback discussion
+	- HSS Okta: Onboarding / Pigeon Docs / Okta Android Docs
+	- HSS Okta: Getting started on Flutter plugins on Android-specific code
+	- CTC Redesign: Implement new UI to DateTime Input
+	- CTC Redesign: Input Fields: Loading State (UI & testing)
+	- CTC Redesign: Input Fields: Disabled State (UI & testing)
+	- CTC Redesign: TextFieldUtils (updated to handle new states)
+	- CTC Redesign: Input Fields: Conditionally show/hide loading indicator in place of the clear/dropdown icon
+	- CTC Redesign: Input Fields: Conditionally disable touch events on loading/disabled states
+	- CTC Redesign: Fix mandatory validation state applied to optional inputs
+- **Issues:**
+	- CTC UI: Clearing inputs for mandatory fields give valid state. On Master Data, user is allowed to save after clearing inputs.
+    - CTC UI: Master data input fields default to `InputFieldStaus.Disabled` - currently overriding to look enabled
+	- CTC UI: Not ignoring touch events on disabled state due to existing issue.
+	- CTC UI: Loading states are not tested on server data - Master Data doesnt have async inputs.
+	- CTC UI: Flag margin on phone input exceeds spacing used in Figma
+- **Questions:**
+    - Do hints disappear on focus or only when there is input?
+- **Notes:**
+	- CTC UI: No focus border for non-text fields
+	- CTC UI: Slight movement on text input when focused
+	- CTC UI: Input Fields - Figma uses 500 font weight, app uses 600 font weight to match
+
+
 ## October 18, 2023 - Wednesday
 - **Time Logs:**
 	- CTC Redesign: Create builder to contain new input field design `2h`
