@@ -15,6 +15,8 @@
 	- CTC Redesign: Input Fields: Conditionally show/hide loading indicator in place of the clear/dropdown icon
 	- CTC Redesign: Input Fields: Conditionally disable touch events on loading/disabled states
 	- CTC Redesign: Fix mandatory validation state applied to optional inputs
+- **To do:**
+	- Settings Screen - Feedback
 - **Issues:**
 	- CTC UI: Clearing inputs for mandatory fields give valid state. On Master Data, user is allowed to save after clearing inputs.
     - CTC UI: Master data input fields default to `InputFieldStaus.Disabled` - currently overriding to look enabled
