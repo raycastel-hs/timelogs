@@ -1,8 +1,8 @@
 ## October 23, 2023 - Monday
 - **Time Logs:**
-	- CTC Setting Rework Screen - Other Settings - Modal - `1.5h`
-	- CTC Setting Rework Screen - Other Settings - UI `2h`
-	- CTC Setting Rework Screen - Delete Account/Profile Settings - `1.25h`
+	- CTC Settings Rework - Delete Account/Profile Settings - `1.25h`
+	- CTC Settings Rework - Other Settings - Modal - `1.5h`
+	- CTC Settings Rework - Other Settings - UI `2h`
 	- CTC `ModalDrawerComponent` class - `1.75h`
 	- CTC Setting Rework Screen - Manage button, Modal Header Title, Menu Screen - `1.5h`
 - **Task breakdown:**
