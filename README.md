@@ -1,3 +1,48 @@
+## October 23, 2023 - Monday
+- **Time Logs:**
+	- CTC Setting Rework Screen - Other Settings - Modal - `1.5h`
+	- CTC Setting Rework Screen - Other Settings - UI `2h`
+	- CTC Setting Rework Screen - Delete Account/Profile Settings - `1.25h`
+	- CTC `ModalDrawerComponent` class - `1.75h`
+	- CTC Setting Rework Screen - Manage button, Modal Header Title, Menu Screen - `1.5h`
+- **Task breakdown:**
+	- CTC Setting Rework Screen - Other Settings - Update UI
+	- CTC Setting Rework Screen - Other Settings - Sound - Move implementation
+	- CTC Setting Rework Screen - Other Settings - Vibrate - Move implementation
+	- CTC Setting Rework Screen - Other Settings - High Priority Notifications
+	- CTC Setting Rework Screen - Other Settings - Data Storage
+	- CTC Setting Rework Screen - Other Settings - Connectivity
+	- CTC Setting Rework Screen - Delete Account Settings
+	- CTC Setting Rework Screen - Delete Profile Settings - New UI
+	- CTC `ModalDrawerComponent` - [WIP] Fix spacing between options
+	- CTC `ModalDrawerComponent` - UI Spacing
+	- CTC `ModalDrawerComponent` - Update conditions to show delete options
+	- CTC `ModalDrawerComponent` - Update conditions to show usename and ID
+	- CTC Setting Rework Screen - `Manage button`
+	- CTC Setting Rework Screen - `Modal Header Title`
+	- CTC Setting Rework Screen - Update Menu Screen
+- **To do:**
+	- CTC Settings Screen Rework - Log on Redmine
+	- CTC Settings Screen Rework - ask Marius/Claudiu about `Modal Header Title` UI
+	- CTC Settings Screen Rework - ask Marius/Claudiu about data privacy/version number UI
+	- CTC Settings Screen Rework - Remove unused cards
+	- CTC Settings Screen Rework - Localization - Delete setting header, delete account/profile - copy & title, auth setting header, other setting header
+	- CTC Settings Screen Rework - Ensure Authentication Method is Single User only
+	- CTC Settings Screen Rework - Auth Settings - Change Password - Test
+	- CTC Settings Screen Rework - Account Settings - Change Username - Test
+	- CTC Settings Screen Rework - Account Settings - Change Name - Test
+	- CTC Settings Screen Rework - Account Settings - Change Telephone - Test
+	- CTC Settings Screen Rework - Auth Settings - [WIP] Auth Order View
+- **Questions:**
+    - Do hints disappear on focus or only when there is input?
+- **Notes:**
+    - CTC UI: Master data input fields default to `InputFieldStaus.Disabled` - currently overriding to look enabled
+	- CTC UI: Not ignoring touch events on disabled state due to existing issue.
+	- CTC UI: No focus border for non-text fields
+	- CTC UI: Slight movement on text input when focused
+	- CTC UI: Input Fields - Figma uses 500 font weight, app uses 600 font weight to match
+
+
 ## October 21-22, 2023 - Saturday/Sunday
 - **Time Logs:**
 	- CTC Setting Screen Rework - Delete Account Setting `.5h`
@@ -20,6 +65,7 @@
 	- CTC Setting Rework Screen - `ModalDrawerComponent` - Update input field order - .5
 	- CTC Setting Rework Screen - `ModalDrawerComponent` - Enable add custom children - .5
 - **To do:**
+	- CTC Settings Screen Rework - Log on Redmine
 	- CTC Settings Screen Rework - Other Settings
 	- CTC Settings Screen Rework - Delete Account - Delete Account
 	- CTC Settings Screen Rework - Delete Account - Delete Profile
