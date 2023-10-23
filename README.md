@@ -1,3 +1,55 @@
+## October 21-22, 2023 - Saturday/Sunday
+- **Time Logs:**
+	- CTC Setting Screen Rework - Delete Account Setting `.5h`
+	- CTC Setting Screen Rework - Authentication Setting - `2h`
+	- CTC Setting Screen Rework - Authentication Setting View BLoC - `.5h`
+	- CTC Setting Screen Rework - Account Settings - `2.5h`
+	- CTC Setting Screen Rework - Language Selection - `2h`
+	- CTC : Adjust `ModalDrawerComponent` - `1h`
+- **Task breakdown:**
+	- CTC Setting Rework Screen - Delete Account Card - .5
+	- CTC Setting Rework Screen - Authentication Settings - [WIP] Auth Order View Bloc - .5
+	- CTC Setting Rework Screen - Authentication Settings - Biometrics and Auth Order - .5
+	- CTC Setting Rework Screen - Authentication Settings - Change password - Move implementation - 1h
+	- CTC Setting Rework Screen - Authentication Settings Card - .5
+	- CTC Setting Rework Screen - Account Settings - Change Telephone - Reuse existing - .5
+	- CTC Setting Rework Screen - Account Settings - Change Name - Reuse existing - .5h
+	- CTC Setting Rework Screen - Account Settings - Change Username - Implement inside account settings modal - 1.5
+	- CTC Setting Rework Screen - Language Selection - Reuse setting implementation - 1.5
+	- CTC Setting Rework Screen - Language Selection - Create empty selection input .5
+	- CTC Setting Rework Screen - `ModalDrawerComponent` - Update input field order - .5
+	- CTC Setting Rework Screen - `ModalDrawerComponent` - Enable add custom children - .5
+- **To do:**
+	- CTC Settings Screen Rework - Other Settings
+	- CTC Settings Screen Rework - Delete Account - Delete Account
+	- CTC Settings Screen Rework - Delete Account - Delete Profile
+	- CTC Settings Screen Rework - Auth Settings - Biometrics - Change Order - resolve nested modals
+	- CTC Settings Screen Rework - Auth Settings - Change Password - Test
+	- CTC Settings Screen Rework - Account Settings - Change Username - Test
+	- CTC Settings Screen Rework - Account Settings - Change Name - Test
+	- CTC Settings Screen Rework - Account Settings - Change Telephone - Test
+	- CTC Settings Screen Rework - Create Modal Header Text
+	- CTC Settings Screen Rework - Auth Settings - [WIP] Auth Order View
+- **Issues:**
+	- CTC Setting Screen Rework - Account Settings Change username does not ask for password
+	- CTC Setting Screen Rework - Other Settings Card - localization
+	- CTC Setting Screen Rework - Authentication Settings Card - localization
+	- CTC Setting Screen Rework - Authentication Settings Card - localization
+	- CTC Setting Screen Rework - Account Settings - Username management - localization
+	- CTC Setting Screen Rework - Account Settings - Name management - localization
+	- CTC Setting Screen Rework - Account Settings - Telephone management - localization
+	- CTC UI: Loading states are not tested on server data - Master Data doesnt have async inputs.
+	- CTC UI: Flag margin on phone input exceeds spacing used in Figma
+- **Questions:**
+    - Do hints disappear on focus or only when there is input?
+- **Notes:**
+    - CTC UI: Master data input fields default to `InputFieldStaus.Disabled` - currently overriding to look enabled
+	- CTC UI: Not ignoring touch events on disabled state due to existing issue.
+	- CTC UI: No focus border for non-text fields
+	- CTC UI: Slight movement on text input when focused
+	- CTC UI: Input Fields - Figma uses 500 font weight, app uses 600 font weight to match
+
+
 ## October 19, 2023 - Thursday
 - **Time Logs:**
 	- CTC Redesign: DateTime input `1h`
